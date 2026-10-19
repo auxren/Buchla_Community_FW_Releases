@@ -6,6 +6,7 @@ the firmware images, their checksums, and the documentation for each release.
 | Module | Release | Based on | Status |
 |---|---|---|---|
 | 272e Polyphonic Tuner | [0.rc.1](272e/0.rc.1/RELEASE-NOTES.md) | Buchla 272E **31.0b1** | release candidate |
+| 259e Twisted Waveform Generator | [0.rc.1](259e/0.rc.1/RELEASE-NOTES.md) | Buchla 259E **31.2** | release candidate |
 
 These are community builds provided **as is, without warranty**. They are not Buchla factory firmware.
 Flashing firmware can leave a module unusable until it is reflashed; keep the base firmware for your module on hand
