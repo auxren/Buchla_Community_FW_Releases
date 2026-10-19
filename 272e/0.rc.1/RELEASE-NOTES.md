@@ -31,6 +31,7 @@ No function, panel behaviour or preset format was changed.
 Tested on hardware (one module, 200e bus with a Xenomorpher as the bus master, antenna fitted):
 - Fast knob spins: display and LEDs stay responsive, and the radio ends on the displayed frequency. **Pass.**
 - Preset RECALL over the bus. **Pass** (see [Known issues](KNOWN-ISSUES.md) for the polling-complete requirement).
+- The released `0.rc.1` image itself: the module reports 0.rc.1, boots normally, and SAVE and RECALL still work. **Pass.**
 
 Checked against Buchla's 31.0b1: the image differs only in the intended places and the preset flash page is untouched.
 
