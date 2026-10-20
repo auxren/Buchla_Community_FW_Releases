@@ -25,9 +25,9 @@ module and the preset bank are not touched by the update.
 
 **Original wavetables, selectable at power-up.** The 259e carries fourteen factory transfer tables in its flash; the Twisted
 firmware uses eight of them (timbres 1 to 4 on each side) and turns the a, b and c positions into memory scans. Holding
-**WAVE** while powering up now boots the module with a, b and c pointing at the six factory tables the Twisted firmware does
+**TIMBRE** while powering up now boots the module with a, b and c pointing at the six factory tables the Twisted firmware does
 not use, the ones from the original 259e. In that mode the FM knobs act as FM for a, b and c, as they did on the original,
-and the memory-scan indication stays off. Powering up without the button (or holding the mod-waveform button) boots the
+and the memory-scan indication stays off. Powering up without the button (or holding the SHAPE button) boots the
 normal Twisted behaviour. The choice is not remembered: it is made at every power-up. Timbres 1 to 5, presets, the preset
 format, the bus protocol, card BACKUP/RESTORE and knob feel are unchanged.
 
@@ -37,7 +37,7 @@ knobs and sound. **Pass.**
 
 **Not yet run on hardware:** the power-up selection and the Original-table mode added in 0.rc.2. Checked in the lab only.
 Owners who try it: please report whether a, b and c sound like tonal tables in Original mode (they should fold with Warp like
-the numbered timbres), whether the WAVE hold at power-up leaves the timbre selection where it was, and what the timbre LEDs
+the numbered timbres), whether the TIMBRE hold at power-up leaves the timbre selection where it was, and what the timbre LEDs
 show for a, b and c in Original mode.
 
 Also still open from 0.rc.1: the exact freeze scenario of fix 1, card RESTORE, SAVE / RECALL across a power cycle, long soak.

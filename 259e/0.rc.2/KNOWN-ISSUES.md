@@ -2,12 +2,12 @@
 
 ## The Original-table mode has not yet run on hardware
 The power-up selection and the Original-table mode are new in 0.rc.2 and have been checked in the lab only. Things to
-watch for and report: whether a, b and c in Original mode sound like tonal tables that fold with Warp; whether the WAVE hold
+watch for and report: whether a, b and c in Original mode sound like tonal tables that fold with Warp; whether the TIMBRE hold
 at power-up leaves the timbre and side where they were; what the timbre LEDs show for a, b and c in Original mode. If the
-module misbehaves, powering up without WAVE gives the already-tested Twisted behaviour, and Buchla's 31.2 can be reflashed.
+module misbehaves, powering up without TIMBRE gives the already-tested Twisted behaviour, and Buchla's 31.2 can be reflashed.
 
 ## The choice is not remembered
-Original mode has to be selected at every power-up by holding WAVE. A stored choice is planned for a later release; it
+Original mode has to be selected at every power-up by holding TIMBRE. A stored choice is planned for a later release; it
 needs a flash write that has not been tested yet.
 
 ## Order of the original tables

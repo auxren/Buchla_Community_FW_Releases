@@ -1,7 +1,7 @@
 # Fixed bugs and changes — 259e 0.rc.2 (relative to Buchla 31.2)
 
 ## New in 0.rc.2: Original wavetables at power-up
-**What.** Hold the **WAVE** button while powering the system up, and keep holding it until the module's LEDs come on
+**What.** Hold the **TIMBRE** button while powering the system up, and keep holding it until the module's LEDs come on
 (about a second). The module then runs with the a, b and c timbre positions pointing at the six factory transfer tables that
 the Twisted firmware leaves unused: three per side, the tables of the original 259e Complex Waveform Generator. They are
 ordered a, b, c on each side in the order they sit in the module's memory, which may not be the order the original panel
@@ -9,11 +9,11 @@ printed; listen and tell us.
 **In that mode.** a, b and c behave like the numbered timbres: Warp folds the sine through the table, Morph crossfades, and
 the FM knobs and inputs are FM (on Twisted they become table scanners for a, b and c). The memory-scan indication is off.
 Timbres 1 to 5 are exactly as before.
-**Back to Twisted.** Power up without holding WAVE. Holding the mod-waveform button at power-up also selects Twisted, and
+**Back to Twisted.** Power up without holding TIMBRE. Holding the SHAPE button at power-up also selects Twisted, and
 wins if both are held. The choice is not stored anywhere; every power-up decides again.
 **Presets.** A preset only stores the timbre number. A preset saved on "a" plays the original table in Original mode and the
 memory scan in Twisted mode. Nothing in the preset bank changes.
-**The hold itself** is swallowed: holding WAVE at power-up does not step the timbre or switch the green/red side.
+**The hold itself** is swallowed: holding TIMBRE at power-up does not step the timbre or switch the green/red side.
 
 ## 1. Panel freezes permanently if the bus master stops acknowledging while polling (from 0.rc.1)
 **Symptom.** With the module in polling mode (a preset manager had started polling), unplugging or resetting the manager

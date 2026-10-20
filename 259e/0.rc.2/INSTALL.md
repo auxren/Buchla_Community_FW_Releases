@@ -18,7 +18,7 @@ Write it to whatever stands in for the card, then follow steps 4–6 above. A Xe
 see the Xenomorphicle project.
 
 ## Selecting the Original tables
-Power up **holding WAVE** until the LEDs come on, then release. Power up without it for Twisted. See
+Power up **holding TIMBRE** until the LEDs come on, then release. Power up without it for Twisted. See
 [FIXED-BUGS.md](FIXED-BUGS.md).
 
 ## Verify your download
