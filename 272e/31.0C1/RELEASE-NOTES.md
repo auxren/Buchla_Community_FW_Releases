@@ -31,7 +31,7 @@ No function, panel behaviour or preset format was changed.
 Tested on hardware (one module, 200e bus with a Xenomorpher as the bus master, antenna fitted):
 - Fast knob spins: display and LEDs stay responsive, and the radio ends on the displayed frequency. **Pass.**
 - Preset RECALL over the bus. **Pass** (see [Known issues](KNOWN-ISSUES.md) for the polling-complete requirement).
-- The released image itself, under its previous number `0.rc.1`: the module reported 0.rc.1, boots normally, and SAVE and RECALL still work. **Pass.** (Since renumbered 31.0C1; only the version bytes differ, and that string has not been checked on a module yet.)
+- The released image itself, under its previous number `0.rc.1`: the module reported 0.rc.1, boots normally, and SAVE and RECALL still work. **Pass.** (Since renumbered 31.0C1; only the version bytes differ. The 31.0C1 image was flashed on 2026-10-20: the module boots and a Remote Enable hold shows **31.0C1** on the bus. **Pass.**)
 
 Checked against Buchla's 31.0b1: the image differs only in the intended places and the preset flash page is untouched.
 
