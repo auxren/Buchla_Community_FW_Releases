@@ -6,7 +6,7 @@ the firmware images, their checksums, and the documentation for each release.
 | Module | Release | Based on | Status |
 |---|---|---|---|
 | 272e Polyphonic Tuner | [31.0C1](272e/31.0C1/RELEASE-NOTES.md) | Buchla 272E **31.0b1** | release candidate |
-| 259e Twisted Waveform Generator | [31.2C3](259e/31.2C3/RELEASE-NOTES.md) (Original wavetables at power-up, choice remembered) | Buchla 259E **31.2** | release candidate; remembering the choice is **not yet run on hardware** ([31.2C2](259e/31.2C2/RELEASE-NOTES.md) and [31.2C1](259e/31.2C1/RELEASE-NOTES.md) ran on a module) |
+| 259e Twisted Waveform Generator | [31.2C3](259e/31.2C3/RELEASE-NOTES.md) (Original wavetables at power-up, choice remembered) | Buchla 259E **31.2** | release candidate, tested on hardware 2026-10-20 ([31.2C2](259e/31.2C2/RELEASE-NOTES.md), [31.2C1](259e/31.2C1/RELEASE-NOTES.md)) |
 | 210e Control & Signal Router | [30.5AC1](210e/30.5AC1/RELEASE-NOTES.md) | Buchla 210E **30.5A** | release candidate, **not yet run on hardware** |
 | 225e MIDI Decoder / Preset Manager (225E MIDI processor) | [30.9C1](225e/30.9C1/RELEASE-NOTES.md) | Buchla 225E **30.9** | release candidate, **not yet run on hardware** |
 | 225e MIDI Decoder / Preset Manager (225S storage processor) | [32.3C1](225s/32.3C1/RELEASE-NOTES.md) | Buchla 225S **32.3** | release candidate, **not yet run on hardware** |

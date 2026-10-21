@@ -1,9 +1,8 @@
 # Known issues and behaviour that is unchanged from Buchla's 31.2
 
-## Remembering the choice has not yet run on hardware
-The stored choice is new in 31.2C3 and has been checked in the lab only. If the module misbehaves, power up holding SHAPE
-for the already-tested Twisted behaviour; 31.2C2 (choice at every power-up) or Buchla's 31.2 can be reflashed. The stored
-byte lives in the calibration area and is ignored by those builds.
+## Going back
+If you prefer the old behaviour, power up holding SHAPE for Twisted; 31.2C2 (choice at every power-up) or Buchla's 31.2 can
+be reflashed. The stored byte lives in the calibration area and is ignored by those builds.
 
 ## The memory for the choice is finite
 Each change uses one byte of a 1008-byte area; after about a thousand changes the last choice stays and further holds no
@@ -43,4 +42,4 @@ calibration.
 The module reports **31.2C3**. The firmware-card image header still reads 31.2 (cosmetic).
 
 ## Release candidate
-Items listed under "Not yet run on hardware" in the [release notes](RELEASE-NOTES.md) are still to be completed.
+Tested on one module; see the [release notes](RELEASE-NOTES.md) for what is still open from 31.2C1 (long soak, card RESTORE).

@@ -6,8 +6,8 @@
 [Fixed bugs](FIXED-BUGS.md) is byte-for-byte Buchla's 31.2. The version this build reports (the panel's version
 announcement on the bus) is **31.2C3**.
 
-**Status: release candidate.** The 31.2C1 fixes and the 31.2C2 Original-table mode were flashed and checked on one 259e.
-**The new part of 31.2C3, remembering the choice, has not yet run on hardware.** See [Test status](#test-status).
+**Status: release candidate, tested on hardware.** Flashed and checked on one 259e on 2026-10-20, including the new part:
+the remembered choice. See [Test status](#test-status).
 
 ## Files
 | file | what | sha256 |
@@ -40,9 +40,9 @@ From 31.2C1, done on hardware (one 259e on a live 200e bus): flash, boot, QUERY,
 knobs and sound. **Pass.** From 31.2C2, done on the same module on 2026-10-20: power-up with TIMBRE held brings up the
 Original tables. **Pass.**
 
-**Not yet run on hardware:** remembering the choice across power cycles (31.2C3). Checked in the lab only: every power-up
-case was replayed in an emulator against the firmware's own flash byte writer. Owners who try it: please report whether the
-mode survives a normal power cycle after a TIMBRE hold, and whether a SHAPE hold brings Twisted back and that survives too.
+From 31.2C3, done on the same module on 2026-10-20: flashed through the card route (the module read the whole image), the
+module reports **31.2C3** on the bus, and the chosen mode survives normal power cycles. **Pass.** Before the bench, every
+power-up case had been replayed in an emulator against the firmware's own flash byte writer.
 
 Also still open from 31.2C1: the exact freeze scenario of fix 1, card RESTORE, SAVE / RECALL across a power cycle, long soak.
 
