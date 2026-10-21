@@ -3,6 +3,12 @@
 **Before you start:** keep Buchla's own 31.0b1 (or the version you run today) on hand so you can go back. Do not flash while the
 200e system is under power if your tool warns you not to.
 
+**Never program the module's chip directly with a debug adapter** (a Silicon Labs USB Debug Adapter with SiUtil or the
+Flash Programming Utility, an Atmel/Microchip JTAG tool, or any other JTAG/C2 programmer). Buchla locks the module's flash at the
+factory; those tools can only get past the lock by erasing the whole chip, which destroys the module's bootloader, its factory
+tables and calibration, and its presets. The files here are meant only for the USB Firmware Card route or a device that stands in
+for the card, as described below.
+
 ## With Buchla's USB Firmware Card (the standard route)
 1. Power off the 200e system. Connect the USB Firmware Card to your computer.
 2. In Buchla's firmware utility, load `272Ev310b1_31.0C1.hex` onto the card. The file name keeps Buchla's pattern so the utility reads

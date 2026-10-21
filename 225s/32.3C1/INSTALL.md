@@ -2,6 +2,12 @@
 
 **Before you start:** take a BACKUP of your presets if your system has any, and keep Buchla's own 32.3 (`225Sv323_Primo.hex` from buchla.com) on hand so you can go back. Do not flash while the 200e system is under power if your tool warns you not to.
 
+**Never program the module's chip directly with a debug adapter** (a Silicon Labs USB Debug Adapter with SiUtil or the
+Flash Programming Utility, an Atmel/Microchip JTAG tool, or any other JTAG/C2 programmer). Buchla locks the module's flash at the
+factory; those tools can only get past the lock by erasing the whole chip, which destroys the module's bootloader, its factory
+tables and calibration, and its presets. The files here are meant only for the USB Firmware Card route or a device that stands in
+for the card, as described below.
+
 The 225e has a second processor with its own Buchla firmware file (225E); this release is for the 225S file only and does not touch the other.
 
 ## With Buchla's USB Firmware Card (the standard route)

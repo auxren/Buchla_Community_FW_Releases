@@ -22,6 +22,12 @@ These are community builds provided **as is, without warranty**. They are not Bu
 Flashing firmware can leave a module unusable until it is reflashed; keep the base firmware for your module on hand
 (each release's notes say which version it was built from and how to go back).
 
+**Never program the module's chip directly with a debug adapter** (a Silicon Labs USB Debug Adapter with SiUtil or the
+Flash Programming Utility, an Atmel/Microchip JTAG tool, or any other JTAG/C2 programmer). Buchla locks the module's flash at the
+factory; those tools can only get past the lock by erasing the whole chip, which destroys the module's bootloader, its factory
+tables and calibration, and its presets. The files here are meant only for the USB Firmware Card route or a device that stands in
+for the card, as described in each release's `INSTALL.md`.
+
 Release candidates marked **not yet run on hardware** have been checked only in the lab; they are published for owners who can test them and report back. Each release's notes say what to check.
 
 Version numbers are Buchla's version followed by `C` (a community build made with Claude) and a revision number:
