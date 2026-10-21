@@ -5,7 +5,7 @@
 Everything not listed under [Fixed bugs](FIXED-BUGS.md) is byte-for-byte Buchla's 30.1. The version this build reports
 (the module's version announcement on the bus) is **30.1C1**; the number is Buchla's version followed by `C` (a community build made with Claude) and a revision number, so the module always says what it is based on.
 
-**Status: release candidate, not yet run on hardware.** See [Test status](#test-status).
+**Status: release candidate, flashed on one 227e.** See [Test status](#test-status).
 
 ## Files
 | file | what | sha256 |
@@ -25,7 +25,8 @@ One problem in 30.1 is fixed. Details in [FIXED-BUGS.md](FIXED-BUGS.md).
 Everything else, including sound, presets and the bus protocol, is unchanged.
 
 ## Test status
-Not yet run on hardware. Checked in the lab only.
+Flashed on one 227e on 2026-10-20 through the card route (the module read the whole image) and the owner reports it works:
+boots, buttons and LEDs as before. Still to do: the short-tap comparison against stock and a long idle check.
 
 Reports from anyone who flashes it are welcome.
 

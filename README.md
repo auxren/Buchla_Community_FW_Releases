@@ -11,7 +11,7 @@ the firmware images, their checksums, and the documentation for each release.
 | 225e MIDI Decoder / Preset Manager (225E MIDI processor) | [30.9C1](225e/30.9C1/RELEASE-NOTES.md) | Buchla 225E **30.9** | release candidate, **not yet run on hardware** |
 | 225e MIDI Decoder / Preset Manager (225S storage processor) | [32.3C1](225s/32.3C1/RELEASE-NOTES.md) | Buchla 225S **32.3** | release candidate, **not yet run on hardware** |
 | 226h Control Voltage Processor | [30.1C1](226h/30.1C1/RELEASE-NOTES.md) | Buchla 226H **30.1** | release candidate, **not yet run on hardware** |
-| 227e System Interface | [30.1C1](227e/30.1C1/RELEASE-NOTES.md) | Buchla 227E **30.1** | release candidate, **not yet run on hardware** |
+| 227e System Interface | [30.1C1](227e/30.1C1/RELEASE-NOTES.md) | Buchla 227E **30.1** | release candidate, flashed on one module 2026-10-20 |
 | 250e Dual Arbitrary Function Generator | [30.6C1](250e/30.6C1/RELEASE-NOTES.md) | Buchla 250E **30.6b1** | release candidate, **not yet run on hardware** |
 | 251e Quad Sequential Voltage Source | [30.7C1](251e/30.7C1/RELEASE-NOTES.md) | Buchla 251E **30.7** | release candidate, **not yet run on hardware** |
 | 252e Polyphonic Rhythm Generator | [30.2C1](252e/30.2C1/RELEASE-NOTES.md) | Buchla 252E **30.2** | release candidate, **not yet run on hardware** |
