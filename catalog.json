@@ -1,0 +1,546 @@
+{
+  "generated": "2026-10-20",
+  "modules": [
+    {
+      "addrs": [
+        96
+      ],
+      "buchla": [
+        {
+          "announced": "30.2   ",
+          "filename": "206Ev302.hex",
+          "hex_sha256": "f9973fe4cca76a352128ff566333edbe76f929de8670dc56bc378e0a15a4f627",
+          "version": "30.2"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "206e"
+    },
+    {
+      "addrs": [
+        99
+      ],
+      "buchla": [
+        {
+          "announced": "30.2   ",
+          "filename": "207Ev302.hex",
+          "hex_sha256": "24b07c032050acdc4cca243fce634aa91f91883a541989668403a6c832eab8e4",
+          "version": "30.2"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "207e"
+    },
+    {
+      "addrs": [
+        32
+      ],
+      "buchla": [
+        {
+          "announced": "30.2   ",
+          "filename": "210Ev302.hex",
+          "hex_sha256": "2817b6508b75a2f5818b6efaef774d3f23ecf80bbcb18bd55dec6aad2344955d",
+          "version": "30.2"
+        },
+        {
+          "announced": "30.5A  ",
+          "filename": "210Ev305A_SSM.hex",
+          "hex_sha256": "1a1334cf957cde9a12ab5768a6d75f947c6266611b275cf75da6119643c66362",
+          "version": "30.5A"
+        }
+      ],
+      "card": "v1",
+      "community": [
+        {
+          "announced": "30.5AC1",
+          "hex_sha256": "c805258cbba96eb5035dbfe94241dbe4187f1c7ac58159699d05f6359b09ae92",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/210e/30.5AC1/210Ev305A_30.5AC1.hex",
+          "id": "30.5AC1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/210e/30.5AC1/RELEASE-NOTES.md",
+          "tested_on_hardware": false
+        }
+      ],
+      "model": "210e"
+    },
+    {
+      "addrs": [
+        112
+      ],
+      "buchla": [
+        {
+          "announced": "30.9   ",
+          "filename": "218Ev309.hex",
+          "hex_sha256": "1ad6e35cfee1c59cadca819d8d424b2a644c5c69285d8bcb55cfa31292746724",
+          "version": "30.9"
+        },
+        {
+          "announced": "31.1   ",
+          "filename": "218Ev311.hex",
+          "hex_sha256": "8ec63eec56eca79563e77033bbc5088fe544756d1af847ecd80fa616aac8a0dd",
+          "version": "31.1"
+        }
+      ],
+      "card": "v2",
+      "community": [],
+      "model": "218e"
+    },
+    {
+      "addrs": [
+        33
+      ],
+      "buchla": [
+        {
+          "announced": "30.7   ",
+          "filename": "225Ev307_primo.hex",
+          "hex_sha256": "b5c57bc3565a0b8992424239f07564d214bbf72eab353b25b9fdc7cfc4bde5cf",
+          "version": "30.7"
+        },
+        {
+          "announced": "30.9   ",
+          "filename": "225E_309_MIDI.hex",
+          "hex_sha256": "95ab5c4385e77b31525c99b65c6144929aa1e93f425e80b8015231e4b774f3d6",
+          "version": "30.9"
+        }
+      ],
+      "card": "v2",
+      "community": [
+        {
+          "announced": "30.9C1 ",
+          "hex_sha256": "a138a4914a14450d7a25f10ff53da25ec6f5aa88c826765f7d789c3525871ac0",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/225e/30.9C1/225Ev309_30.9C1.hex",
+          "id": "30.9C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/225e/30.9C1/RELEASE-NOTES.md",
+          "tested_on_hardware": false
+        }
+      ],
+      "model": "225e"
+    },
+    {
+      "addrs": [
+        35
+      ],
+      "buchla": [
+        {
+          "announced": "30.1   ",
+          "filename": "227Ev301.hex",
+          "hex_sha256": "368d5da765abdf7823179a552f20ab1ae51cb79feb89429cd41d95f427eb6d29",
+          "version": "30.1"
+        }
+      ],
+      "card": "v1",
+      "community": [
+        {
+          "announced": "30.1C1 ",
+          "hex_sha256": "a6ed1c7618177ccbdafd38975aeac68f0deab9946a06979531243388ec29b31a",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/227e/30.1C1/227Ev301_30.1C1.hex",
+          "id": "30.1C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/227e/30.1C1/RELEASE-NOTES.md",
+          "tested_on_hardware": true
+        }
+      ],
+      "model": "227e"
+    },
+    {
+      "addrs": [
+        102,
+        103,
+        104,
+        105
+      ],
+      "buchla": [
+        {
+          "announced": "30.3   ",
+          "filename": "230Ev303.hex",
+          "hex_sha256": "1649ca4cdc6db31ce77d7102453aef76dfafc2169347954487f84c73fddff497",
+          "version": "30.3"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "230e"
+    },
+    {
+      "addrs": [
+        65,
+        66
+      ],
+      "buchla": [
+        {
+          "announced": "30.5   ",
+          "filename": "250Ev305.hex",
+          "hex_sha256": "608ca6f139133200133d6416bdb9d06173bfc43707c4e93ddf64e0f01fd56dd1",
+          "version": "30.5"
+        },
+        {
+          "announced": "30.6   ",
+          "filename": "250Ev306b1.hex",
+          "hex_sha256": "b388f9b0cd7a7f739838ccb1010252c27daa2df46db1e3b7208f74d1d3cd2a2e",
+          "version": "30.6"
+        }
+      ],
+      "card": "v1",
+      "community": [
+        {
+          "announced": "30.6C1 ",
+          "hex_sha256": "371adff7e659ceccf9de197f80c8b51c38ccaad8ba1066710f5cf7d644f31ef5",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/250e/30.6C1/250Ev306b1_30.6C1.hex",
+          "id": "30.6C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/250e/30.6C1/RELEASE-NOTES.md",
+          "tested_on_hardware": false
+        }
+      ],
+      "model": "250e"
+    },
+    {
+      "addrs": [
+        92
+      ],
+      "buchla": [
+        {
+          "announced": "30.7   ",
+          "filename": "251Ev307.hex",
+          "hex_sha256": "68e7261af629b332f77c3eaad8ed06c86af1ed7a48d1d5be6a545800b3a7dab2",
+          "version": "30.7"
+        }
+      ],
+      "card": "v2",
+      "community": [
+        {
+          "announced": "30.7C1 ",
+          "hex_sha256": "1f25c6de2fe8edf5f3f423c06cdd9d9ca5523d0eb39d68bee3fa226b63cbc233",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/251e/30.7C1/251Ev307_30.7C1.hex",
+          "id": "30.7C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/251e/30.7C1/RELEASE-NOTES.md",
+          "tested_on_hardware": false
+        }
+      ],
+      "model": "251e"
+    },
+    {
+      "addrs": [
+        95
+      ],
+      "buchla": [
+        {
+          "announced": "30.2   ",
+          "filename": "252Ev302.hex",
+          "hex_sha256": "c159c03beeded16e2e1eee45a38529ec98174b6725715a91167ed6f4fdde64a6",
+          "version": "30.2"
+        }
+      ],
+      "card": "v2",
+      "community": [
+        {
+          "announced": "30.2C1 ",
+          "hex_sha256": "b0c76db2b8db0a76ca0a4e5d0445b74b89af874ade003fcb3cb4b5cc1cd79d9d",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/252e/30.2C1/252Ev302_30.2C1.hex",
+          "id": "30.2C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/252e/30.2C1/RELEASE-NOTES.md",
+          "tested_on_hardware": false
+        }
+      ],
+      "model": "252e"
+    },
+    {
+      "addrs": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "buchla": [
+        {
+          "announced": "30.3   ",
+          "filename": "256Ev303.hex",
+          "hex_sha256": "1059bd4ca2f3aa3b900cb7de035ec3f3e14b97d8e2005d101cae6614bbdc0a96",
+          "version": "30.3"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "256e"
+    },
+    {
+      "addrs": [
+        16,
+        17
+      ],
+      "buchla": [
+        {
+          "announced": "30.2   ",
+          "filename": "257Ev302.hex",
+          "hex_sha256": "17bf45b0c5fc73d7663d7d16d8bc3c9be57b17061abff8f250becbdc0d0e860c",
+          "version": "30.2"
+        }
+      ],
+      "card": "v2",
+      "community": [],
+      "model": "257e"
+    },
+    {
+      "addrs": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "buchla": [
+        {
+          "announced": "30.8   ",
+          "filename": "259Ev308.hex",
+          "hex_sha256": "3e86b2a715aeaa3f2c7df17342873b10fb01756aa7aa05e9946d249427467f0e",
+          "version": "30.8"
+        },
+        {
+          "announced": "31.2   ",
+          "filename": "259E_312.hex",
+          "hex_sha256": "556a839b2b0216bbf4e23ba596b0b7a92c202e702438018cf7c39adf5b20c096",
+          "version": "31.2"
+        }
+      ],
+      "card": "v1",
+      "community": [
+        {
+          "announced": "31.2C1 ",
+          "hex_sha256": "82a3f5d497ac66ddd444083aa6cf4e2a86b91cbf9f96e5b5a921ea37881ea575",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/259e/31.2C1/259Ev312_31.2C1.hex",
+          "id": "31.2C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/259e/31.2C1/RELEASE-NOTES.md",
+          "tested_on_hardware": true
+        },
+        {
+          "announced": "31.2C2 ",
+          "hex_sha256": "7fb16b3219d95c35ec434f75e0a906377cd266d871fcedfcd5856ee8442a96fa",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/259e/31.2C2/259Ev312_31.2C2.hex",
+          "id": "31.2C2",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/259e/31.2C2/RELEASE-NOTES.md",
+          "tested_on_hardware": true
+        },
+        {
+          "announced": "31.2C3 ",
+          "hex_sha256": "16b29e07a642e6895106f1034c8c4571895e38b65aef27e6e46177b439adfaad",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/259e/31.2C3/259Ev312_31.2C3.hex",
+          "id": "31.2C3",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/259e/31.2C3/RELEASE-NOTES.md",
+          "tested_on_hardware": true
+        }
+      ],
+      "model": "259e"
+    },
+    {
+      "addrs": [
+        48,
+        49
+      ],
+      "buchla": [
+        {
+          "announced": "30.1   ",
+          "filename": "260Ev301.hex",
+          "hex_sha256": "c49fcc17d0647a30803f3544c573065a4ab9772aa12d21caef663c6afe0075b6",
+          "version": "30.1"
+        }
+      ],
+      "card": "v1",
+      "community": [
+        {
+          "announced": "30.1C1 ",
+          "hex_sha256": "9f9e0e289c16ee72f05f441678f1e7b203c487de7dd233aaed4b9cec2124e04a",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/260e/30.1C1/260Ev301_30.1C1.hex",
+          "id": "30.1C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/260e/30.1C1/RELEASE-NOTES.md",
+          "tested_on_hardware": false
+        }
+      ],
+      "model": "260e"
+    },
+    {
+      "addrs": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "buchla": [
+        {
+          "announced": "30.2   ",
+          "filename": "261Ev302.hex",
+          "hex_sha256": "92342c779146081a30a3f8407504948b6aaf9ac9d6e7ba9c275f2d861decc6f2",
+          "version": "30.2"
+        },
+        {
+          "announced": "30.8   ",
+          "filename": "261E_308.hex",
+          "hex_sha256": "7243666244f137ce467ac631fe378d76ae8fe4c6de0c02f6a790d9f7e7267512",
+          "version": "30.8"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "261e"
+    },
+    {
+      "addrs": [
+        50,
+        51
+      ],
+      "buchla": [
+        {
+          "announced": "30.1   ",
+          "filename": "266Ev301.hex",
+          "hex_sha256": "8021b47b61dc7a39e16f3a6681530c8a98b75eaeac9aa770ddb75fe636d7592d",
+          "version": "30.1"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "266e"
+    },
+    {
+      "addrs": [
+        18,
+        19
+      ],
+      "buchla": [
+        {
+          "announced": "30.1   ",
+          "filename": "267Ev301.hex",
+          "hex_sha256": "3d9294f79fbae5b51c57e4ca82aa5ac21f11adfec426130a256b6f5b8f76ce3f",
+          "version": "30.1"
+        }
+      ],
+      "card": "v2",
+      "community": [],
+      "model": "267e"
+    },
+    {
+      "addrs": [
+        94
+      ],
+      "buchla": [
+        {
+          "announced": "30.8   ",
+          "filename": "272Ev308.hex",
+          "hex_sha256": "22aee1f09ea590c4bcaa569eeef616556f0f9aa59542cf97aa71d89bc2b34c8f",
+          "version": "30.8"
+        },
+        {
+          "announced": "31.0   ",
+          "filename": "272Ev310b1.hex",
+          "hex_sha256": "dd2695636cf38f575ed385cc1824752ddb19760ce741eb8dc165f140aa143a21",
+          "version": "31.0"
+        }
+      ],
+      "card": "v1",
+      "community": [
+        {
+          "announced": "31.0C1 ",
+          "hex_sha256": "69abff4568452a2a18987db44648795a4857cd379cec2ff794da1126b0937a93",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/272e/31.0C1/272Ev310b1_31.0C1.hex",
+          "id": "31.0C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/272e/31.0C1/RELEASE-NOTES.md",
+          "tested_on_hardware": true
+        }
+      ],
+      "model": "272e"
+    },
+    {
+      "addrs": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "buchla": [
+        {
+          "announced": "30.2   ",
+          "filename": "281Ev302.hex",
+          "hex_sha256": "0c8a64672e2b57ec21bc865b31b2000a4de6c12d34837e026d11611994d1b893",
+          "version": "30.2"
+        },
+        {
+          "announced": "30.6   ",
+          "filename": "281E_306.hex",
+          "hex_sha256": "fd87df27bef5ee1d59e532c18ca8edb59aa8107b4ebc10b42b022781ab711fcb",
+          "version": "30.6"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "281e"
+    },
+    {
+      "addrs": [
+        68,
+        69
+      ],
+      "buchla": [
+        {
+          "announced": "30.1   ",
+          "filename": "291Ev301.hex",
+          "hex_sha256": "669ad2921da2dce72ef4915db4c90c3259a1fbd9d6aa6f5880548c90253500a2",
+          "version": "30.1"
+        }
+      ],
+      "card": "v1",
+      "community": [
+        {
+          "announced": "30.1C1 ",
+          "hex_sha256": "8e9c81f5a84a522af604af46898c74159b4d71afc90e4e2a21546a5f53bd715c",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/291e/30.1C1/291Ev301_30.1C1.hex",
+          "id": "30.1C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/291e/30.1C1/RELEASE-NOTES.md",
+          "tested_on_hardware": false
+        }
+      ],
+      "model": "291e"
+    },
+    {
+      "addrs": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "buchla": [
+        {
+          "announced": "30.4   ",
+          "filename": "292Ev304.hex",
+          "hex_sha256": "0949b47f6a4250cfda972a291ca0efdd75fb789237161b676ed87aa04c196e13",
+          "version": "30.4"
+        },
+        {
+          "announced": "30.6   ",
+          "filename": "292Ev306.hex",
+          "hex_sha256": "a3bc92344b3bce920c97f54f407e366d6dafb7d851df5695539156f5170a05b9",
+          "version": "30.6"
+        }
+      ],
+      "card": "v1",
+      "community": [],
+      "model": "292e"
+    },
+    {
+      "addrs": [
+        100,
+        101
+      ],
+      "buchla": [
+        {
+          "announced": "30.3   ",
+          "filename": "296Ev303.hex",
+          "hex_sha256": "49d9f03d33cbcaf87816943bb7577a5995c0fe51e767174341395a483d92d2fc",
+          "version": "30.3"
+        }
+      ],
+      "card": "v2",
+      "community": [],
+      "model": "296e"
+    }
+  ]
+}
