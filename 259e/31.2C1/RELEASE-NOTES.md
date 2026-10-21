@@ -34,7 +34,7 @@ Sound, presets, the preset format, the bus protocol, card BACKUP/RESTORE and kno
 Done on hardware (one 259e, address 0x28, 200e bus with a Xenomorpher as the bus master, no preset manager):
 - Flashed over the bus; the module boots, plays and answers a bus QUERY. **Pass.**
 - BACKUP of the preset bank over the bus: all 30 presets read back intact. **Pass.**
-- The module reported **0.rc.1** in its version announcement, the number this build carried when it was flashed. **Pass.** (The image has since been renumbered 31.2C1; only the version bytes differ, and that string has not been checked on a module yet.)
+- The module reported **0.rc.1** in its version announcement, the number this build carried when it was flashed. **Pass.** (The image has since been renumbered 31.2C1 and flashed again on 2026-10-20: the module reports **31.2C1**. **Pass.**)
 - Panel: quick taps on Remote and the mode / waveform / wave-select buttons all register; knobs and sound as before. **Pass.**
 - After the session the bus master's counters show no errors, no dropped frames, no stuck bus.
 
