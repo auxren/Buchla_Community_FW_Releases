@@ -5,8 +5,8 @@
 [31.2C1](../31.2C1/RELEASE-NOTES.md). Everything not listed under [Fixed bugs](FIXED-BUGS.md) is byte-for-byte Buchla's 31.2.
 The version this build reports (the panel's version announcement on the bus) is **31.2C2**.
 
-**Status: release candidate.** The 31.2C1 content was flashed and checked on one 259e. **The new feature in 31.2C2 has not yet
-run on hardware.** See [Test status](#test-status).
+**Status: release candidate.** Flashed and checked on one 259e on a live 200e system, including the new power-up selection
+and the Original-table mode. See [Test status](#test-status).
 
 ## Files
 | file | what | sha256 |
@@ -32,13 +32,14 @@ normal Twisted behaviour. The choice is not remembered: it is made at every powe
 format, the bus protocol, card BACKUP/RESTORE and knob feel are unchanged.
 
 ## Test status
-From 31.2C1, done on hardware (one 259e on a live 200e bus): flash, boot, QUERY, preset BACKUP, version frame, panel taps,
-knobs and sound. **Pass.**
+Done on hardware (one 259e on a live 200e bus, 2026-10-20):
+- 31.2C2 flashed; the module boots, plays, answers a bus QUERY and reports **31.2C2** in its version announcement. **Pass.**
+- Power-up with nothing held: the Twisted behaviour of 31.2C1 / 31.2. **Pass.**
+- Power-up with TIMBRE held: the Original-table mode, with a, b and c on the factory tables. **Pass.**
+- Carried over from 31.2C1 (same code): preset BACKUP, panel taps, knobs and sound. **Pass.**
 
-**Not yet run on hardware:** the power-up selection and the Original-table mode added in 31.2C2. Checked in the lab only.
-Owners who try it: please report whether a, b and c sound like tonal tables in Original mode (they should fold with Warp like
-the numbered timbres), whether the TIMBRE hold at power-up leaves the timbre selection where it was, and what the timbre LEDs
-show for a, b and c in Original mode.
+Reports from owners are still welcome on the finer points: what the timbre LEDs show for a, b and c in Original mode, and
+whether the order of the three original tables per side matches the original 259e (see [Known issues](KNOWN-ISSUES.md)).
 
 Also still open from 31.2C1: the exact freeze scenario of fix 1, card RESTORE, SAVE / RECALL across a power cycle, long soak.
 

@@ -1,10 +1,10 @@
 # Known issues and behaviour that is unchanged from Buchla's 31.2
 
-## The Original-table mode has not yet run on hardware
-The power-up selection and the Original-table mode are new in 31.2C2 and have been checked in the lab only. Things to
-watch for and report: whether a, b and c in Original mode sound like tonal tables that fold with Warp; whether the TIMBRE hold
-at power-up leaves the timbre and side where they were; what the timbre LEDs show for a, b and c in Original mode. If the
-module misbehaves, powering up without TIMBRE gives the already-tested Twisted behaviour, and Buchla's 31.2 can be reflashed.
+## The Original-table mode has been run on one module only
+The power-up selection and the Original-table mode are new in 31.2C2 and have been flashed and checked on one 259e
+(2026-10-20). Reports from other modules are welcome, in particular what the timbre LEDs show for a, b and c in Original
+mode. If a module misbehaves, powering up without TIMBRE gives the Twisted behaviour of 31.2C1, and Buchla's 31.2 can be
+reflashed.
 
 ## The choice is not remembered
 Original mode has to be selected at every power-up by holding TIMBRE. A stored choice is planned for a later release; it
@@ -44,4 +44,5 @@ calibration.
 The module reports **31.2C2**. The firmware-card image header still reads 31.2 (cosmetic).
 
 ## Release candidate
-Items listed under "Not yet run on hardware" in the [release notes](RELEASE-NOTES.md) are still to be completed.
+Items listed as still open in the [release notes](RELEASE-NOTES.md) (card RESTORE, SAVE / RECALL across a power cycle, long
+soak) are still to be completed.
