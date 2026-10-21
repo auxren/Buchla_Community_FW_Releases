@@ -17,7 +17,7 @@ the firmware images, their checksums, and the documentation for each release.
 | 252e Polyphonic Rhythm Generator | [30.2C1](252e/30.2C1/RELEASE-NOTES.md) | Buchla 252E **30.2** | release candidate, **not yet run on hardware** |
 | 260e Duophonic Pitch Class Generator | [30.1C1](260e/30.1C1/RELEASE-NOTES.md) | Buchla 260E **30.1** | release candidate, **not yet run on hardware** |
 | 291e Triple Morphing Filter | [30.1C1](291e/30.1C1/RELEASE-NOTES.md) | Buchla 291E **30.1** | release candidate, **not yet run on hardware** |
-| 200e Bus Buccaneer (Mac app, firmware update through a Xenomorpher) | [alpha 1](app/RELEASE-NOTES.md), [install](app/INSTALL.md) | reads `catalog.json` | alpha, signed with a development key for now |
+| 200e Bus Buccaneer (Mac app, firmware update through a Xenomorpher) | [alpha 1](app/RELEASE-NOTES.md), [install](app/INSTALL.md) | reads `catalog.json` | alpha, **not yet run on hardware**, signed with a development key for now |
 
 These are community builds provided **as is, without warranty**. They are not Buchla factory firmware.
 Flashing firmware can leave a module unusable until it is reflashed; keep the base firmware for your module on hand

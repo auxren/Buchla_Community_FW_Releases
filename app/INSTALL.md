@@ -1,13 +1,16 @@
 # Installing 200e Bus Buccaneer (alpha 1)
 
+**Not yet run on hardware.** Nothing in alpha 1 has been run against a real Xenomorpher, bus or module yet. It is published for
+owners who can test with its author present.
+
 **Before you start:** the app changes the firmware of a module. Take your own backup of anything you cannot lose, and keep Buchla's
 own firmware for the module on hand so you can go back. The app saves a backup of a module's presets before an update, but alpha 1
 cannot restore it for you.
 
 ## What you need
 - A Mac running macOS 13 or newer.
-- A **Xenomorpher** connected to your computer by USB and to the 200e bus, running a firmware recent enough to support firmware
-  transfer. If yours is too old, the app tells you to update the Xenomorpher first and shows the version it needs.
+- A **Xenomorpher** connected to your computer by USB and to the 200e bus, running the Xenomorpher firmware build that ships
+  alongside this app on its release page. The app checks the version and tells you if it is too old.
 - A module with an 8051-family processor (most 200e modules). **AVR32 modules (251e, 252e, 218e and similar) are not supported on
   this route yet.** The app will not write to them.
 - **No Studio H 2WIRELESS (WPM) on the bus.** The bus has one firmware card address and the WPM uses it; unplug the WPM while you
@@ -38,7 +41,8 @@ If the module does not report the new version, the app says so. Power-cycle the 
 had before; each release's notes say how.
 
 ## Verify and go back
-Every firmware file is checked against its published checksum before it is sent. To go back to a previous version, choose it in the
+Every firmware file from the app's list is checked against its published checksum before it is sent. A file you open yourself
+has no published checksum; if it is not a Buchla release the app recognises, the app asks you to confirm before it loads it. To go back to a previous version, choose it in the
 Update screen the same way, or use Buchla's own USB Firmware Card route described in each release's `INSTALL.md`.
 
 **Never program a module's chip directly with a debug adapter**; see the top-level README.
