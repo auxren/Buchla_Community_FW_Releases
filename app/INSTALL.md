@@ -7,6 +7,8 @@ owners who can test with its author present.
 own firmware for the module on hand so you can go back. The app saves a backup of a module's presets before an update, but alpha 1
 cannot restore it for you.
 
+**Windows?** See [INSTALL-WINDOWS.md](INSTALL-WINDOWS.md) for the installer, SmartScreen and the card's USB driver.
+
 ## What you need
 - A Mac running macOS 13 or newer.
 - A **Xenomorpher** connected to your computer by USB and to the 200e bus, running the Xenomorpher firmware build that ships
