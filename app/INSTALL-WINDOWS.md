@@ -13,7 +13,7 @@
 4. The app needs Microsoft's WebView2 runtime. Most Windows 10 and 11 computers already have it; if yours does not, the installer downloads it (it needs the network for that).
 
 ## Where your files live
-Settings, the firmware list, your library and your backups are kept in `%LOCALAPPDATA%\com.auxren.buccaneer` (paste that into the File Explorer address bar). Backups are in the `backups` folder there. Uninstalling the app leaves this folder alone.
+Settings, the firmware list, your library and your backups are kept in `%LOCALAPPDATA%\com.auxren.buccaneer` (paste that into the File Explorer address bar). Backups are in the `backups` folder there. Your backups stay in this folder; uninstalling the app does not delete them (check after uninstalling).
 
 ## USB, MIDI and COM ports
 - **Xenomorpher:** it appears as a USB MIDI device; Windows may shorten or add a number to its name, and the app finds it anyway. Only one program can use a MIDI port at a time on Windows: close any other MIDI program (a DAW, a MIDI monitor) before you start, or the app tells you the port is in use.
@@ -37,7 +37,7 @@ Only the official **Buchla USB Firmware Card** route needs a driver on Windows. 
 **What this changes.** Buchla's own utility and Atmel FLIP use a different driver for the same card. While WinUSB is bound, **they cannot see the card**. Only one driver can be bound at a time.
 
 **Switch back to Buchla's utility**
-- Device Manager: find the card (under "Universal Serial Bus devices" or "libusb-win32 devices", or by its USB ID 03EB:2FF6 in Properties, Details, Hardware Ids), right-click, **Uninstall device**, tick **Delete the driver software for this device**, then unplug and replug the card. Windows or Buchla's utility installs its own driver again.
-- Or in Zadig, select the same device and choose **libusb0** (the driver Buchla's utility and FLIP use), then Replace Driver.
+- Device Manager: find the card (under "Universal Serial Bus devices", or by its USB ID 03EB:2FF6 in Properties, Details, Hardware Ids), right-click, **Uninstall device**, tick **Delete the driver software for this device**, then unplug and replug the card. Buchla's utility and FLIP use their own driver, so after this reinstall that driver with Buchla's or Atmel's installer.
+- Switching back means reinstalling that driver with Buchla's or Atmel's installer; Zadig cannot restore it for you.
 
 Switch one way, finish what you are doing, then switch back before changing again.
