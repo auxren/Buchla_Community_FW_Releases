@@ -1,7 +1,9 @@
 # WPM firmware 1.19
 
 Community firmware for the Buchla WPM (the Wi-Fi preset manager), built from the open-source
-2WIRELESS project, version 1.19. Everything the WPM did in 1.18 is unchanged: the web page, the
+2WIRELESS project, version 1.19. The change is submitted upstream as
+[studiohsoftware/2WIRELESS pull request 5](https://github.com/studiohsoftware/2WIRELESS/pull/5);
+the files here are built from that branch. Everything the WPM did in 1.18 is unchanged: the web page, the
 preset pages and the memory routes behave exactly as before.
 
 ## What is new
