@@ -13,7 +13,7 @@
 4. The app needs Microsoft's WebView2 runtime. Most Windows 10 and 11 computers already have it; if yours does not, the installer downloads it (it needs the network for that).
 
 ## Where your files live
-Settings, the firmware list, your library and your backups are kept in `%LOCALAPPDATA%\com.auxren.buccaneer` (paste that into the File Explorer address bar). Backups are in the `backups` folder there. Your backups stay in this folder; uninstalling the app does not delete them (check after uninstalling).
+Settings, the firmware list, your library and your backups are kept in `%LOCALAPPDATA%\com.auxren.buccaneer` (paste that into the File Explorer address bar). Backups are in the `backups` folder there. When you uninstall, leave the "delete application data" box unticked, or your backups go with it. Safer still: set the Backup folder in Settings to somewhere outside the app's data folder.
 
 ## USB, MIDI and COM ports
 - **Xenomorpher:** it appears as a USB MIDI device; Windows may shorten or add a number to its name, and the app finds it anyway. Only one program can use a MIDI port at a time on Windows: close any other MIDI program (a DAW, a MIDI monitor) before you start, or the app tells you the port is in use.
