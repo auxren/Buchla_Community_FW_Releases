@@ -1,7 +1,7 @@
 {
   "bridges": [
     {
-      "bin_sha256": "da404bd93ff4ff63327d54b446935d976110f884aa56c11ddb50093ea703ac4b",
+      "bin_sha256": "0dcdaebf876e417c8c6eb4ddc1956a3ba7d4d50f8c946b891b547e82298bbfb8",
       "bin_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/wpm/1.19/wpm-1.19.ino.bin",
       "kind": "wpm",
       "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/wpm/1.19/RELEASE-NOTES.md",
