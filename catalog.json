@@ -17,6 +17,15 @@
       "ota_bin_sha256": "be7191ede48dff6d819c78caea4477b36ab4a6537f5d715b21cdef1f26564bbb",
       "ota_bin_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/wpm/1.20/wpm-1.20.ota.bin",
       "version": "1.20"
+    },
+    {
+      "bin_sha256": "668da24ed850771c535b4f4776130d60195235a13264dbcdacd26f0df3aab1ae",
+      "bin_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/wpm/1.21/wpm-1.21.ino.bin",
+      "kind": "wpm",
+      "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/wpm/1.21/RELEASE-NOTES.md",
+      "ota_bin_sha256": "52f045369e7904f6db156c74f086443c3f2f1bf930b6916c1acd78b80b197e77",
+      "ota_bin_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/wpm/1.21/wpm-1.21.ota.bin",
+      "version": "1.21"
     }
   ],
   "generated": "2026-10-22",
