@@ -5,7 +5,9 @@
 Everything not listed under [Fixed bugs](FIXED-BUGS.md) is byte-for-byte Buchla's 30.7. The version this build reports
 (the panel's version announcement on the bus) is **30.7C1**; the number is Buchla's version followed by `C` (a community build made with Claude) and a revision number, so the module always says what it is based on.
 
-**Status: release candidate, not yet run on hardware.** See [Test status](#test-status).
+**Status: superseded by [30.7C2](../30.7C2/RELEASE-NOTES.md). Do not flash this build.** Its first run on a module (2026-10-22)
+confirmed the knob improvements but found that on a worn knob (the CV-out knob on that unit) the value snapped to 0 and could not be
+raised past 2.0 V; 30.7C2 fixes that. The original status text follows.
 
 ## Files
 | file | what | sha256 |

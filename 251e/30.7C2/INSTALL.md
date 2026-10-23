@@ -1,0 +1,36 @@
+# Installing 251e 30.7C2
+
+**Before you start:** take a BACKUP of your presets (take the 251e out of Remote Enable first, see
+[KNOWN-ISSUES.md](KNOWN-ISSUES.md)) and keep Buchla's own 251E 30.7 (from buchla.com) on hand so you can go back. This candidate has not
+run on hardware yet; flash it only on a module you can afford to reflash. Do not flash while the 200e system is under power if your tool
+warns you not to.
+
+**Never program the module's chip directly with a debug adapter** (a Silicon Labs USB Debug Adapter with SiUtil or the
+Flash Programming Utility, an Atmel/Microchip JTAG tool, or any other JTAG/C2 programmer). Buchla locks the module's flash at the
+factory; those tools can only get past the lock by erasing the whole chip, which destroys the module's bootloader, its factory
+tables and calibration, and its presets. The files here are meant only for the USB Firmware Card route or a device that stands in
+for the card, as described below.
+
+## With Buchla's USB Firmware Card (the standard route)
+1. Power off the 200e system. Connect the USB Firmware Card to your computer.
+2. In Buchla's firmware utility, load `251Ev307_30.7C2.hex` onto the card. The file name keeps Buchla's pattern so the utility reads
+   the module and version from it. Wait for the card LED to finish.
+3. Put the card in the 200e card slot.
+4. Power on the system **while holding the 251e's Remote Enable button**; keep holding until the module's LEDs change.
+5. Wait one to two minutes for the module to program itself, then power-cycle the system normally.
+6. Check the module announces **30.7C2** (hold Remote Enable for about a second; with a preset manager attached the version appears
+   on the bus).
+
+## With a device that stands in for the card
+`251Ev307_30.7C2.card.bin` is the same image laid out as a 224 KB firmware-card image of the larger layout used by the 200e's 32-bit
+modules. It needs a card stand-in that supports that larger card (three-byte addressing); the
+64 KB stand-ins used for the 8-bit modules cannot serve it. Write it to the stand-in, then follow steps 4–6 above.
+
+## Verify your download
+Compare the files with `SHA256SUMS`:
+`shasum -a 256 -c SHA256SUMS`
+
+## Going back
+Reflash Buchla's own 251E 30.7 the same way (load its `.hex` on the card and power on holding Remote Enable).
+This build writes exactly the flash areas Buchla's update writes and leaves the preset bank alone, but take a BACKUP of your presets
+first, as you would before any firmware change.
