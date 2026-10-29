@@ -13,7 +13,7 @@ the firmware images, their checksums, and the documentation for each release.
 | 226h Control Voltage Processor | [30.1C1](226h/30.1C1/RELEASE-NOTES.md) | Buchla 226H **30.1** | release candidate, **not yet run on hardware** |
 | 227e System Interface | [30.1C1](227e/30.1C1/RELEASE-NOTES.md) | Buchla 227E **30.1** | release candidate, flashed on one module 2026-10-20 |
 | 250e Dual Arbitrary Function Generator | [30.6C1](250e/30.6C1/RELEASE-NOTES.md) | Buchla 250E **30.6b1** | release candidate, **not yet run on hardware** |
-| 251e Quad Sequential Voltage Source | [30.7C2](251e/30.7C2/RELEASE-NOTES.md) | Buchla 251E **30.7** | release candidate 2, **not yet run on hardware**; replaces [30.7C1](251e/30.7C1/RELEASE-NOTES.md), which ran on one module 2026-10-22 and regressed on a worn knob |
+| 251e Quad Sequential Voltage Source | [30.7C3](251e/30.7C3/RELEASE-NOTES.md) | Buchla 251E **30.7** | pre-release (release candidate 3), **partly tested on hardware**: 2 of 11 sequencer checks passed, the calibration code has been loaded and measured against but never used to write a calibration; replaces [30.7C2](251e/30.7C2/RELEASE-NOTES.md) and [30.7C1](251e/30.7C1/RELEASE-NOTES.md) |
 | 252e Polyphonic Rhythm Generator | [30.2C1](252e/30.2C1/RELEASE-NOTES.md) | Buchla 252E **30.2** | release candidate, **not yet run on hardware** |
 | 260e Duophonic Pitch Class Generator | [30.1C1](260e/30.1C1/RELEASE-NOTES.md) | Buchla 260E **30.1** | release candidate, **not yet run on hardware** |
 | 291e Triple Morphing Filter | [30.1C1](291e/30.1C1/RELEASE-NOTES.md) | Buchla 291E **30.1** | release candidate, **not yet run on hardware** |
