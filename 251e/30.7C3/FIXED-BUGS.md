@@ -1,6 +1,6 @@
 # Fixed bugs — 251e 30.7C3 (relative to Buchla 30.7)
 
-30.7C3 is made of eleven change sets on top of Buchla's 30.7. Items 1–9 are the first two sets and are unchanged from
+30.7C3 is made of eleven sequencer and panel change sets on top of Buchla's 30.7, plus the calibration code described at the end. Items 1–9 are the first two sets and are unchanged from
 [30.7C2](../30.7C2/FIXED-BUGS.md) (the knob fixes and the small bus and panel fixes). Items 10–18 are the nine new sequencer
 sets. Only part of this has run on a real module; see the [test status](RELEASE-NOTES.md#test-status). After the fixes comes a section on the calibration code this image also carries; that is
 an addition, not a bug fix.

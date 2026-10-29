@@ -30,8 +30,8 @@ card stand-in was restarted and Remote Enable was held throughout; which of the 
 ## With Buchla's USB Firmware Card
 `251Ev307_30.7C3.hex` can be given to Buchla's firmware utility like the earlier releases: load it onto the card, put the card in the
 200e card slot, power on holding Remote Enable, wait one to two minutes, power-cycle. **This route has not been tried with this
-image.** The image programs one flash page more than Buchla's own update does (see below), and it has not been confirmed that
-Buchla's loader accepts that.
+image.** The image programs one flash page more than Buchla's own update does (see below), and whether Buchla's firmware utility puts
+the extra page on the USB card has not been checked. The module's own loader programmed it when the card image was served from a stand-in.
 
 ## The extra flash page
 Buchla's update programs 112 flash pages. This image programs 113: the same 112 plus one page of previously unused space that holds the

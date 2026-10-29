@@ -21,7 +21,7 @@ output was released by itself after 5 seconds, and an explicit release returned 
 **Nothing has ever been WRITTEN to a real unit with this firmware.** No calibration record has been stored on any module. The write
 path (staging a record and committing it to flash) has been exercised only in an emulator and by code review. Playing with a stored
 record, the corrected CV values, flash endurance of the record page, and whether a record survives a reflash are all untested.
-Presets were not checked after loading either.
+Neither the presets nor normal sequencer playback were checked after this image was loaded; the two passed sequencer checks ran on the earlier build.
 
 ## Two different builds report 30.7C3
 An earlier internal build, **without** the calibration code, reports the same version string `30.7C3`. It was never published. To tell
@@ -44,10 +44,10 @@ These were found by testing the stock code and this image's code (they are the s
 real bytes in a model of the processor, except the last, which was found by reading the code.
 - **Sync-next ring.** If sync-next is set on stage 1 of all four sequencers (with no init delay), entering any of those stages starts
   a ring of sequencers starting each other that never returns; within a few milliseconds it overwrites the module's RAM and the
-  module freezes until power is removed. Presets are not written by this. Do not set it.
+  module freezes until power is removed. Presets are not written by this. Do not set it. Do not SAVE a preset with this setting either: recalled with the sequencer running, it may freeze the module again (not tested).
 - **Bus COPY and SWAP with a slot out of range.** Their slot numbers are not checked. A frame with an out-of-range slot, or a last
   slot of 255, can rewrite flash beyond the preset bank, **including the page that holds the calibration record**, or loop for ever
-  rewriting flash. Nothing in normal use sends these commands (the reference preset master does not send them); a hand-made frame can.
+  rewriting flash. No known preset manager sends an out-of-range COPY or SWAP (the reference preset master sends neither); a hand-made frame can.
 - **A short or empty bus frame repeats the previous command** with its previous arguments (for example a SAVE or RECALL again).
   A bus glitch or an aborted master can cause it.
 - **A bus frame longer than 16 bytes wraps** around; its last bytes are read as a new command. No such frame is known today.
@@ -58,7 +58,7 @@ real bytes in a model of the processor, except the last, which was found by read
 ## Not fixed in the sequencer, as in Buchla's 30.7 or 30.7C2
 - The sync-next 1-tick lead (sync-next is only de-doubled, not aligned to the tick), the sample-and-hold stage-select offset of one
   stage ("1-46" report), the CV stage-select range at the top of the scale ("0-45" report), full-level "trans" for the whole pulse,
-  the ¾ pulse width in bus-clock mode, the BACKUP missing pulses, RESTORE/copy/swap timing, and the preset manager's "not stored" LED
+  the ¾ pulse width in bus-clock mode, the BACKUP missing pulses, RESTORE timing during card reads, and the preset manager's "not stored" LED
   for command 0x03 (by design).
 - The flash-read erratum in SAVE.
 

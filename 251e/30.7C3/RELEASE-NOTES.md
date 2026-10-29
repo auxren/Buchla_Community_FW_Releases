@@ -57,9 +57,9 @@ listed in [KNOWN-ISSUES.md](KNOWN-ISSUES.md).
   stage order played). **Checks 3 to 11 have not been run.**
 - **This merged image was loaded onto a real 251e on 2026-10-26** through the Xenomorpher card route (third attempt; the first two
   stalled). Afterwards the module answers the calibration status request ("no valid record"), which shows the extra flash page was
-  programmed.
-- **Three measuring-only calibration runs** were made against it, nothing written: the readings repeated closely between runs, and a
-  held output released itself after 5 seconds. Details and caveats in [KNOWN-ISSUES.md](KNOWN-ISSUES.md).
+  programmed. Neither the presets nor normal sequencer playback were checked after this image was loaded; the two passed sequencer checks ran on the earlier build.
+- **Three measuring-only calibration runs** were made against it, nothing written: the two logged runs agreed closely (the first, read from a photo,
+  differed by 3 gain steps on one channel). In a separate test a held output released itself after 5 seconds. Details and caveats in [KNOWN-ISSUES.md](KNOWN-ISSUES.md).
 - **No calibration record has ever been written to a real module with this firmware.** The write path has been exercised only in an
   emulator and by code review.
 - Not measured on a module: the tempo constant (item 11), SAVE without a pause (item 18), and whether a stored record survives a
