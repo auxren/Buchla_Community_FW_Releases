@@ -5,6 +5,8 @@
 Everything not listed under [Fixed bugs](FIXED-BUGS.md) is byte-for-byte Buchla's 30.1. The version this build reports
 (the module's version announcement on the bus) is **30.1C1**; the number is Buchla's version followed by `C` (a community build made with Claude) and a revision number, so the module always says what it is based on.
 
+**Status: superseded by [30.1C2](../30.1C2/RELEASE-NOTES.md) (pre-release), which carries this build's button change plus pan mode and two bus fixes. 30.1C2 also moves the swirl-button short press to the release, which is a reason to stay on 30.1C1 if you do not want that.** This build remains a sound choice if you want only the button change and Buchla's flash layout unchanged. The original status text follows.
+
 **Status: release candidate, flashed on one 227e.** See [Test status](#test-status).
 
 ## Files
