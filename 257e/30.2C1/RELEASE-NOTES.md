@@ -35,7 +35,7 @@ Everything else, including the control-voltage processing, the pots, the buttons
 **Loaded on one 257e on 2026-11-19**, from a card stand-in (a Xenomorpher serving the card image), not from Buchla's own USB
 Firmware Card. This was the first load of a 257e by that route. The module, which announced 30.2 beforehand, read the card in a
 single pass (the 257e programs itself as it reads; there is no second pass), came back up after a power cycle and answers on
-the bus. Its owner reports that it shows the new version; the announcement itself was not captured in full when this was written.
+the bus. It reports **30.2C1**, as read by its owner on the display of the device that listens to the module's version announcement.
 
 **Not checked on hardware:**
 - any of the three fixes (they were checked in the lab only);
