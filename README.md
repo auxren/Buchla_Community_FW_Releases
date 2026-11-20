@@ -6,6 +6,7 @@ the firmware images, their checksums, and the documentation for each release.
 | Module | Release | Based on | Status |
 |---|---|---|---|
 | 272e Polyphonic Tuner | [31.0C1](272e/31.0C1/RELEASE-NOTES.md) | Buchla 272E **31.0b1** | release candidate |
+| 257e Control Voltage Processor | [30.2C1](257e/30.2C1/RELEASE-NOTES.md) | Buchla 257E **30.2** | pre-release (release candidate 1), flashed on one module 2026-11-19; the fixes themselves **not yet checked on hardware**; loading erases the module's presets |
 | 259e Twisted Waveform Generator | [31.2C3](259e/31.2C3/RELEASE-NOTES.md) (Original wavetables at power-up, choice remembered) | Buchla 259E **31.2** | release candidate, tested on hardware 2026-10-20 ([31.2C2](259e/31.2C2/RELEASE-NOTES.md), [31.2C1](259e/31.2C1/RELEASE-NOTES.md)) |
 | 210e Control & Signal Router | [30.5AC1](210e/30.5AC1/RELEASE-NOTES.md) | Buchla 210E **30.5A** | release candidate, **not yet run on hardware** |
 | 225e MIDI Decoder / Preset Manager (225E MIDI processor) | [30.9C1](225e/30.9C1/RELEASE-NOTES.md) | Buchla 225E **30.9** | release candidate, **not yet run on hardware** |
@@ -16,7 +17,7 @@ the firmware images, their checksums, and the documentation for each release.
 | 251e Quad Sequential Voltage Source | [30.7C3](251e/30.7C3/RELEASE-NOTES.md) | Buchla 251E **30.7** | pre-release (release candidate 3), **partly tested on hardware**: 2 of 11 sequencer checks passed (on an earlier build with the same sequencer code), the calibration code has been loaded and measured against but never used to write a calibration; replaces [30.7C2](251e/30.7C2/RELEASE-NOTES.md) and [30.7C1](251e/30.7C1/RELEASE-NOTES.md) |
 | 252e Polyphonic Rhythm Generator | [30.2C1](252e/30.2C1/RELEASE-NOTES.md) | Buchla 252E **30.2** | release candidate, **not yet run on hardware** |
 | 260e Duophonic Pitch Class Generator | [30.1C1](260e/30.1C1/RELEASE-NOTES.md) | Buchla 260E **30.1** | release candidate, **not yet run on hardware** |
-| 267e Dual Random Voltage Generator | [30.1C1](267e/30.1C1/RELEASE-NOTES.md) (external c.v. <-> random mix pot saved and recalled with presets) | Buchla 267E **30.1** | release candidate, flashed and checked on one module 2026-11-19; loading erases the module's presets |
+| 267e Dual Random Voltage Generator | [30.1C1](267e/30.1C1/RELEASE-NOTES.md) (external c.v. <-> random mix pot saved and recalled with presets) | Buchla 267E **30.1** | release candidate, flashed and checked on one module 2026-11-19; loading erases the module's presets. **Do not install on a module that reports 30.2** |
 | 291e Triple Morphing Filter | [30.1C1](291e/30.1C1/RELEASE-NOTES.md) | Buchla 291E **30.1** | release candidate, **not yet run on hardware** |
 
 These are community builds provided **as is, without warranty**. They are not Buchla factory firmware.

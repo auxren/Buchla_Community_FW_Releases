@@ -7,6 +7,12 @@ made with Claude) and a revision number, so the module always says what it is ba
 
 **Status: release candidate, flashed and checked on one 267e.** See [Test status](#test-status).
 
+> **If your 267e reports version 30.2, do not install this.** This build is made from Buchla's published 30.1. Some modules carry a
+> later firmware, 30.2, which is not among Buchla's downloads and which we do not have. Installing this build replaces it, there is
+> no way back to 30.2, and we do not know what 30.2 changed (it may already contain Buchla's own fix for the bug below). The module
+> this build was loaded on reported 30.2 beforehand, and that firmware is gone from it. Check your module's version first; see
+> [INSTALL.md](INSTALL.md#check-your-version-first).
+
 ## Files
 | file | what | sha256 |
 |---|---|---|
@@ -26,7 +32,8 @@ Details in [FIXED-BUGS.md](FIXED-BUGS.md).
 Everything else, including sound, the bus protocol and the other pots, is unchanged.
 
 ## Test status
-Flashed on one 267e on 2026-11-19 through the card route; the module announces **30.1C1**, and the external c.v. <-> random mix
+Flashed on one 267e on 2026-11-19 from a card stand-in (a Xenomorpher serving the card image; the module read the card in a
+single pass of about 45 seconds), not from Buchla's own USB Firmware Card; the module announces **30.1C1**, and the external c.v. <-> random mix
 pot is saved with a preset and recalled. **Pass, on one module.** Not yet done: a long soak. Reports from anyone who flashes it are welcome.
 
 ## Before you load it

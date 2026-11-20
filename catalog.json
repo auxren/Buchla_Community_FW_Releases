@@ -300,7 +300,16 @@
         }
       ],
       "card": "v2",
-      "community": [],
+      "community": [
+        {
+          "announced": "30.2C1 ",
+          "hex_sha256": "cdb576140bc386cd9af3470dddc773b0a62e80ebc39001a00af1bb755d13ebf0",
+          "hex_url": "https://raw.githubusercontent.com/auxren/Buchla_Community_FW_Releases/main/257e/30.2C1/257Ev302_30.2C1.hex",
+          "id": "30.2C1",
+          "notes_url": "https://github.com/auxren/Buchla_Community_FW_Releases/blob/main/257e/30.2C1/RELEASE-NOTES.md",
+          "tested_on_hardware": true
+        }
+      ],
       "model": "257e"
     },
     {
